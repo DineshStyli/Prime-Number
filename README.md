@@ -12,8 +12,10 @@ GET /prime/checkPrime/5
 The response will be a simple message indicating whether the number is prime or not:
 
 "5 is a prime number."
+
 ⚠️ Error Handling
 This application includes global exception handling using @ControllerAdvice.
+
 If the input is invalid (e.g., a string or special character instead of a number), you’ll receive a meaningful error response:
 
 {
