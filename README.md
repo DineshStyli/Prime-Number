@@ -7,6 +7,7 @@ Replace {num} with any positive integer.
 Example:
 
 GET /prime/checkPrime/5
+
 📤 Output
 The response will be a simple message indicating whether the number is prime or not:
 
